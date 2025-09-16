@@ -1,0 +1,34 @@
+To create the heirarchy I did the following:
+
+$: mkdir DOS_2341013419
+$: cd DOS_2341013419
+$: mkdir DOS_ass_1
+$: cd DOS_ass_1
+$: mkdir dir_1
+
+
+To make another directory while in DOS_ass_1 I did the following
+
+$: mkdir dir_2
+
+Now to delete the dir_2 while in DOS_2341013419 I did the following
+
+$: sudo rm -rf DOS_ass_1/dir_2
+
+To display the inode values of all file in a directory I did the following;
+
+$: ls -i 
+
+To display the number of line, words and charcaters I did the following respectively:
+
+$: wc -l <filename>
+$: wc -w <filename>
+$: wc -c <filename>
+
+To print the contents of a file in reverse order we do the follwoing:
+
+tac <filename>
+
+To display the number of files in a directory, I did the following:
+
+$: find . -maxdepth 1 -type f | wc -l
