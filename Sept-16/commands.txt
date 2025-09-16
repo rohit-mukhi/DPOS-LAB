@@ -1,3 +1,5 @@
+# This file does not contain each and every command used. Some things were just ease like a breeze, which will can be included in the final assignment documemnt
+
 To create the heirarchy I did the following:
 
 $: mkdir DOS_2341013419
