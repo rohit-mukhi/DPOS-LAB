@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # This script teaches conditionals and floating point calculations with awk utility
+# The awk is a good for text formatting. For high level precision use bc
 
 echo "Enter radius: "
 read radius
