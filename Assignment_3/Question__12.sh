@@ -6,7 +6,7 @@ op2=$3
 
 if [[ ! "$op1" =~ ^[0-9]+$ ]]; then
 	echo "Inavlid first operand"
-elif [[ ! "$op" =~ ^[-+*/%^]+$ ]]; then
+elif [[ ! "$op" =~ ^[-+x/%^]+$ ]]; then
 	echo "Invalid operator!"
 elif [[ ! "$op2" =~ ^[0-9]+$ ]]; then
 	echo "Invalid second operand"
@@ -18,7 +18,7 @@ if [ "$op" = "+" ]; then
 elif [ "$op" = "-" ]; then
 	dif=$(( $op1 - $op2 ))
 	echo "$op1 $op $op2 = $dif"
-elif [ "$op" = "*" ]; then
+elif [ "$op" = "x" ]; then
 	pro=$(( $op1 * $op2 ))
 	echo "$op1 $op $op2 = $pro"
 elif [ "$op" = "/" ]; then
